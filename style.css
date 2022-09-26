@@ -1,0 +1,274 @@
+
+/* 
+   position in CSS:- (relative, absolute, static, fixed and stiky)
+    
+   relative:- means ye change (like top,bottom ,left ,right) whi se hota hai jha pe rhta hai.
+   absolute:- means ye change (like top,bottom ,left ,right) apne parent se hota hai. means starting paage se.
+   fixed:- means ye apne place pe fied ho jayega scroll karne pr bhi nhi htega.
+   stiky:- means ye page ke top pe ja kr chipak jata hai.or bottom pe.
+   static :-ye default hota hai.
+
+*/
+
+.sticky{
+    background-color: #66bfbf;
+}
+
+.img{
+   
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2%;
+    background-color: rgb(245, 245, 176);
+    width: 200px;
+    height: 100px;
+    left:1269px;
+    z-index: 1;
+    font-size: 30%;
+    overflow: hidden;
+
+}
+
+hr{
+    color: #66bfbf;
+    border-style:dotted none none;
+    border-color: #4d7777;
+    width: 5%;
+    border-width: 5px;
+
+}
+
+.top_container{
+    /* position:absolute; */
+    background-color: rgb(180, 253, 229);
+    position: relative;
+    top:100%;
+    left: 0;
+    width: 100%;
+    padding-top:7% ;
+    
+}
+.dev{
+    text-decoration: underline;
+
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    text-align:center;
+    font-family:serif;
+    font-size:x-large;
+   
+}
+
+ h1{
+    font-size: 70px;
+    margin-top:0;
+    font-family: 'Sacramento', cursive;
+    /* width: 10%;
+    margin: 0 auto 0 auto ; */
+   color:#66bfbf;
+
+ } 
+
+.intr{
+    width: 30%;
+    margin: auto;
+}
+
+p{
+    color:#242e2e;
+    font-weight: normal;
+    line-height: 2.5;
+}
+
+h2{
+    color:#487676;
+    font-family: 'Sacramento', cursive;
+}
+
+h3{
+    color:#4d7777;
+    font-family: 'Sacramento', cursive;
+    font-size:200%;
+}
+
+.top_cloud{
+  position: absolute;
+  top:40px;
+  left:1000px ;
+}
+
+.bottom_cloud{
+    position: absolute;
+    left:300px;
+    bottom: 300px;
+}
+
+.middle_container{
+    background-color:rgb(223, 242, 236) ;
+}
+.myskill{
+    width: 50%;
+    margin: auto;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+
+.computer{
+    width: 30%;
+    float: left;
+    padding: 30px;
+    /* margin: 30px; */
+}
+
+.profile{
+    /* margin: auto 20px 20px 20px; */
+    padding: 20px;
+    z-index: 1;
+}
+
+.skill{
+    width: 50%;
+    margin: auto;
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.favicon{
+    width: 25%;
+    float: left;
+    padding: 30px;
+    margin: 30px;
+}
+
+
+.chilli{
+    width: 25%;
+    float: right;
+    padding: 30px;
+    margin: 30px;
+}
+
+
+.ej{
+    position: sticky;
+    right:60%;
+    top: 0%;
+    z-index: 1;
+}
+.contect{
+    position: relative;
+    right: 40px;
+    top: 30px;
+}
+.me{
+    height: 20%;
+    width: 103.5%;
+    position: relative;
+    /* left: 100px; */
+    color: darkgray;
+    background-color:rgb(180, 253, 229) ;
+    /* padding: px; */
+}
+.bottom_container{
+   
+    background-color: rgb(223, 242, 236);
+    /* position:relative;
+    right: 40px;
+    bottom: 0px;
+    width: 50%;
+    margin: auto;
+    float:none; */
+    z-index: 1;
+    float:center;
+}
+
+.contect_me{
+    width: 50%;
+    margin: 40px auto 40px auto;
+}
+
+.footer_link{
+    color: #aaa;
+    transition: color 0.2ms;
+    
+}
+.footer_link:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Amiddle{
+        background-color: blue;
+        height: 200px;
+        width: 200px;
+        border: 5px solid green;
+         /* position: absolute;
+         top: 960px;
+         left: 425px; */
+        
+}
+.Abottom{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    border: 5px solid green;
+  position: relative;
+    left:210px;
+    /* position: absolute;
+    right: 1092px;
+    top:750px; */
+}
+
+.Abottam{
+    background-color: rgb(241, 26, 166);
+    height: 200px;
+    width: 200px;
+    border: 5px solid green;
+    position: relative;
+    left:420px;
+    /* position: absolute;
+   top: 540px; */
+}
+.Abot{
+    background-color: rgb(248, 208, 10);
+    height: 200px;
+    width: 200px;
+    border: 5px solid green;
+   position: relative;
+   left: 205px;
+   bottom: 5px;
+}
+.Abott{
+    background-color: rgb(0, 0, 233);
+    height: 200px;
+    width: 200px;
+    border: 5px solid green;
+    position:relative;
+    left:623px;
+    bottom: 5px; 
+}
+.Amid{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border: 5px solid green;
+    position: relative;
+    left: 1041px;
+    bottom: 5px;
+}
